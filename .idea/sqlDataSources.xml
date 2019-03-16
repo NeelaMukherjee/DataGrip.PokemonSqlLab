@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="d60cb806-6fcd-4bdb-93d8-97610fb6df52" />
+          <option name="name" value="pokemon_pokemon_trainer" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemon_trainer.sql" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="af5a3b3a-eb84-4c30-954c-9890edcece32" />
+          <option name="name" value="pokemon_pokemons" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/pokemon_sql/pokemon_pokemons.sql" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="e52a772e-5f8e-4172-a4ec-d01974fe40c7" />
+          <option name="name" value="pokemon_trainers" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/pokemon_sql/pokemon_trainers.sql" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="ce03b708-f761-4c47-bd17-777a52a88e7a" />
+          <option name="name" value="pokemon_types" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/pokemon_sql/pokemon_types.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
