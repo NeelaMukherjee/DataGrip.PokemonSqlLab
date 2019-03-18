@@ -53,10 +53,10 @@ group by t.name
 
 #How many pokemon at level 100 does each trainer with at least one level 100 pokemon have? (Hint: your query should not display a trainer
 
-select count(*)
+select pk.trainerID,  count(pk.pokelevel) as Level_100_Pokemon
 from pokemon_trainer pk
        JOIN pokemons p ON pk.pokemon_id = p.id AND pk.pokelevel = 100
-group by pk.pokelevel;
+group by pk.trainerID;
 
 
 #How many pokemon only belong to one trainer and no other? The sub query gives the pokemon IDs that have only one trainer.
@@ -82,4 +82,11 @@ from pokemon_trainer pk
 
 
 #Sort
+# Displays the strongest trainer on the top as ordered by descending
+# Adding all the columns except hp as included maxhp
+
+select pk.trainerID as Trainer_ID, t.trainername as Trainer_Name, (sum(pk.pokelevel)+ sum(pk.attack)+ sum( pk.defense)+ sum( pk.maxhp) +sum(pk.spatk)+ sum(pk.spdef) + sum( pk.speed)) as trainer_stats
+from pokemon_trainer pk JOIN trainers t on pk.trainerID = t.trainerID
+group by pk.trainerID
+order by  trainer_stats DESC
 

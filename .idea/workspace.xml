@@ -99,8 +99,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pokemon_sql/PokemonLab.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="64" column="85" selection-start-line="64" selection-start-column="85" selection-end-line="64" selection-end-column="85" />
+            <state relative-caret-position="185">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://560e02b7-4c2b-4393-ba3e-d2cf16cacf12/schema/Pokemon/table/pokemons">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -116,10 +125,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-385" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -185,12 +192,12 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-385" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.16453674" />
-      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.39716312" />
+      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.562942" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
@@ -199,7 +206,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.12087327" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.18336026" />
       <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.25" />
     </layout>
   </component>
@@ -252,14 +259,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://560e02b7-4c2b-4393-ba3e-d2cf16cacf12/schema/Pokemon/table/pokemons">
+    <entry file="das://560e02b7-4c2b-4393-ba3e-d2cf16cacf12/schema/Pokemon/table/trainers">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://560e02b7-4c2b-4393-ba3e-d2cf16cacf12/schema/Pokemon/table/trainers">
+    <entry file="das://560e02b7-4c2b-4393-ba3e-d2cf16cacf12/schema/Pokemon/table/pokemons">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -275,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pokemon_sql/PokemonLab.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="64" column="85" selection-start-line="64" selection-start-column="85" selection-end-line="64" selection-end-column="85" />
+        <state relative-caret-position="185">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
